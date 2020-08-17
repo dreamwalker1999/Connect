@@ -20,7 +20,7 @@ import Modal from 'react-bootstrap/Modal'
 import 'bootstrap/dist/css/bootstrap.css'
 import "./room.scss";
 
-const server_url = process.env.NODE_ENV === 'production' ? 'https://mysterious-scrubland-49088.herokuapp.com/' : "http://localhost:4001"
+const server_url = process.env.NODE_ENV === 'production' ? 'https://connect1313.herokuapp.com/' : "http://localhost:4001"
 
 var connections = {}
 
